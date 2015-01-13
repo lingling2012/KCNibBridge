@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9179D7581A656A6C00024640 /* KCNibBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9179D7571A656A6C00024640 /* KCNibBridge.m */; };
+		9194DAE91A6531280066382E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DAE81A6531280066382E /* main.m */; };
+		9194DAEC1A6531280066382E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DAEB1A6531280066382E /* AppDelegate.m */; };
+		9194DAEF1A6531280066382E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DAEE1A6531280066382E /* ViewController.m */; };
+		9194DAF21A6531280066382E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9194DAF01A6531280066382E /* Main.storyboard */; };
+		9194DAF41A6531280066382E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9194DAF31A6531280066382E /* Images.xcassets */; };
+		9194DAF71A6531280066382E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9194DAF51A6531280066382E /* LaunchScreen.xib */; };
+		9194DB031A6531280066382E /* KCNibBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DB021A6531280066382E /* KCNibBridgeTests.m */; };
+		9194DB0E1A6539F70066382E /* KCNibConvention.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DB0D1A6539F70066382E /* KCNibConvention.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9194DAFD1A6531280066382E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9194DADB1A6531280066382E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9194DAE21A6531280066382E;
+			remoteInfo = KCNibBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9179D7571A656A6C00024640 /* KCNibBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNibBridge.m; sourceTree = "<group>"; };
+		9179D7591A656A8800024640 /* KCNibBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCNibBridge.h; sourceTree = "<group>"; };
+		9194DAE31A6531280066382E /* KCNibBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCNibBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9194DAE71A6531280066382E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9194DAE81A6531280066382E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9194DAEA1A6531280066382E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9194DAEB1A6531280066382E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9194DAED1A6531280066382E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9194DAEE1A6531280066382E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9194DAF11A6531280066382E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9194DAF31A6531280066382E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9194DAF61A6531280066382E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9194DAFC1A6531280066382E /* KCNibBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCNibBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9194DB011A6531280066382E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9194DB021A6531280066382E /* KCNibBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCNibBridgeTests.m; sourceTree = "<group>"; };
+		9194DB0C1A6539F70066382E /* KCNibConvention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNibConvention.h; sourceTree = "<group>"; };
+		9194DB0D1A6539F70066382E /* KCNibConvention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNibConvention.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9194DAE01A6531280066382E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9194DAF91A6531280066382E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9194DADA1A6531280066382E = {
+			isa = PBXGroup;
+			children = (
+				9194DAE51A6531280066382E /* KCNibBridge */,
+				9194DAFF1A6531280066382E /* KCNibBridgeTests */,
+				9194DAE41A6531280066382E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9194DAE41A6531280066382E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9194DAE31A6531280066382E /* KCNibBridge.app */,
+				9194DAFC1A6531280066382E /* KCNibBridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9194DAE51A6531280066382E /* KCNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				9194DAEA1A6531280066382E /* AppDelegate.h */,
+				9194DAEB1A6531280066382E /* AppDelegate.m */,
+				9194DAED1A6531280066382E /* ViewController.h */,
+				9194DAEE1A6531280066382E /* ViewController.m */,
+				9194DAF01A6531280066382E /* Main.storyboard */,
+				9194DAF31A6531280066382E /* Images.xcassets */,
+				9194DAF51A6531280066382E /* LaunchScreen.xib */,
+				9194DAE61A6531280066382E /* Supporting Files */,
+				9194DB0C1A6539F70066382E /* KCNibConvention.h */,
+				9194DB0D1A6539F70066382E /* KCNibConvention.m */,
+				9179D7591A656A8800024640 /* KCNibBridge.h */,
+				9179D7571A656A6C00024640 /* KCNibBridge.m */,
+			);
+			path = KCNibBridge;
+			sourceTree = "<group>";
+		};
+		9194DAE61A6531280066382E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9194DAE71A6531280066382E /* Info.plist */,
+				9194DAE81A6531280066382E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9194DAFF1A6531280066382E /* KCNibBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9194DB021A6531280066382E /* KCNibBridgeTests.m */,
+				9194DB001A6531280066382E /* Supporting Files */,
+			);
+			path = KCNibBridgeTests;
+			sourceTree = "<group>";
+		};
+		9194DB001A6531280066382E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9194DB011A6531280066382E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9194DAE21A6531280066382E /* KCNibBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9194DB061A6531280066382E /* Build configuration list for PBXNativeTarget "KCNibBridge" */;
+			buildPhases = (
+				9194DADF1A6531280066382E /* Sources */,
+				9194DAE01A6531280066382E /* Frameworks */,
+				9194DAE11A6531280066382E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCNibBridge;
+			productName = KCNibBridge;
+			productReference = 9194DAE31A6531280066382E /* KCNibBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9194DAFB1A6531280066382E /* KCNibBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9194DB091A6531280066382E /* Build configuration list for PBXNativeTarget "KCNibBridgeTests" */;
+			buildPhases = (
+				9194DAF81A6531280066382E /* Sources */,
+				9194DAF91A6531280066382E /* Frameworks */,
+				9194DAFA1A6531280066382E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9194DAFE1A6531280066382E /* PBXTargetDependency */,
+			);
+			name = KCNibBridgeTests;
+			productName = KCNibBridgeTests;
+			productReference = 9194DAFC1A6531280066382E /* KCNibBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9194DADB1A6531280066382E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kitsion;
+				TargetAttributes = {
+					9194DAE21A6531280066382E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9194DAFB1A6531280066382E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9194DAE21A6531280066382E;
+					};
+				};
+			};
+			buildConfigurationList = 9194DADE1A6531280066382E /* Build configuration list for PBXProject "KCNibBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9194DADA1A6531280066382E;
+			productRefGroup = 9194DAE41A6531280066382E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9194DAE21A6531280066382E /* KCNibBridge */,
+				9194DAFB1A6531280066382E /* KCNibBridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9194DAE11A6531280066382E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9194DAF21A6531280066382E /* Main.storyboard in Resources */,
+				9194DAF71A6531280066382E /* LaunchScreen.xib in Resources */,
+				9194DAF41A6531280066382E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9194DAFA1A6531280066382E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9194DADF1A6531280066382E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9179D7581A656A6C00024640 /* KCNibBridge.m in Sources */,
+				9194DAEF1A6531280066382E /* ViewController.m in Sources */,
+				9194DAEC1A6531280066382E /* AppDelegate.m in Sources */,
+				9194DB0E1A6539F70066382E /* KCNibConvention.m in Sources */,
+				9194DAE91A6531280066382E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9194DAF81A6531280066382E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9194DB031A6531280066382E /* KCNibBridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9194DAFE1A6531280066382E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9194DAE21A6531280066382E /* KCNibBridge */;
+			targetProxy = 9194DAFD1A6531280066382E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9194DAF01A6531280066382E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9194DAF11A6531280066382E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9194DAF51A6531280066382E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9194DAF61A6531280066382E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9194DB041A6531280066382E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9194DB051A6531280066382E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9194DB071A6531280066382E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KCNibBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9194DB081A6531280066382E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KCNibBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9194DB0A1A6531280066382E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KCNibBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCNibBridge.app/KCNibBridge";
+			};
+			name = Debug;
+		};
+		9194DB0B1A6531280066382E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KCNibBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCNibBridge.app/KCNibBridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9194DADE1A6531280066382E /* Build configuration list for PBXProject "KCNibBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9194DB041A6531280066382E /* Debug */,
+				9194DB051A6531280066382E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9194DB061A6531280066382E /* Build configuration list for PBXNativeTarget "KCNibBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9194DB071A6531280066382E /* Debug */,
+				9194DB081A6531280066382E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9194DB091A6531280066382E /* Build configuration list for PBXNativeTarget "KCNibBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9194DB0A1A6531280066382E /* Debug */,
+				9194DB0B1A6531280066382E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9194DADB1A6531280066382E /* Project object */;
+}
