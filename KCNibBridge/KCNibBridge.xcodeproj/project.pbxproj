@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9179D7581A656A6C00024640 /* KCNibBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9179D7571A656A6C00024640 /* KCNibBridge.m */; };
+		9179D75B1A65861300024640 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9179D75A1A65861300024640 /* FirstView.xib */; };
+		9179D75E1A65863A00024640 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9179D75D1A65863A00024640 /* FirstView.m */; };
+		9179D7601A65894E00024640 /* 87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 9179D75F1A65894E00024640 /* 87x87.png */; };
+		9179D7631A6589EE00024640 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9179D7621A6589EE00024640 /* SecondView.m */; };
+		9179D7651A658A1B00024640 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9179D7641A658A1B00024640 /* SecondView.xib */; };
+		9179D7671A658BE900024640 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 9179D7661A658BE900024640 /* qq.png */; };
 		9194DAE91A6531280066382E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DAE81A6531280066382E /* main.m */; };
 		9194DAEC1A6531280066382E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DAEB1A6531280066382E /* AppDelegate.m */; };
 		9194DAEF1A6531280066382E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9194DAEE1A6531280066382E /* ViewController.m */; };
@@ -31,6 +37,14 @@
 /* Begin PBXFileReference section */
 		9179D7571A656A6C00024640 /* KCNibBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNibBridge.m; sourceTree = "<group>"; };
 		9179D7591A656A8800024640 /* KCNibBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCNibBridge.h; sourceTree = "<group>"; };
+		9179D75A1A65861300024640 /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		9179D75C1A65863A00024640 /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		9179D75D1A65863A00024640 /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		9179D75F1A65894E00024640 /* 87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87x87.png; sourceTree = "<group>"; };
+		9179D7611A6589EE00024640 /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		9179D7621A6589EE00024640 /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
+		9179D7641A658A1B00024640 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		9179D7661A658BE900024640 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
 		9194DAE31A6531280066382E /* KCNibBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCNibBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9194DAE71A6531280066382E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9194DAE81A6531280066382E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +101,8 @@
 		9194DAE51A6531280066382E /* KCNibBridge */ = {
 			isa = PBXGroup;
 			children = (
+				9179D75F1A65894E00024640 /* 87x87.png */,
+				9179D7661A658BE900024640 /* qq.png */,
 				9194DAEA1A6531280066382E /* AppDelegate.h */,
 				9194DAEB1A6531280066382E /* AppDelegate.m */,
 				9194DAED1A6531280066382E /* ViewController.h */,
@@ -99,6 +115,12 @@
 				9194DB0D1A6539F70066382E /* KCNibConvention.m */,
 				9179D7591A656A8800024640 /* KCNibBridge.h */,
 				9179D7571A656A6C00024640 /* KCNibBridge.m */,
+				9179D75A1A65861300024640 /* FirstView.xib */,
+				9179D75C1A65863A00024640 /* FirstView.h */,
+				9179D75D1A65863A00024640 /* FirstView.m */,
+				9179D7611A6589EE00024640 /* SecondView.h */,
+				9179D7621A6589EE00024640 /* SecondView.m */,
+				9179D7641A658A1B00024640 /* SecondView.xib */,
 			);
 			path = KCNibBridge;
 			sourceTree = "<group>";
@@ -209,9 +231,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9179D7651A658A1B00024640 /* SecondView.xib in Resources */,
+				9179D7671A658BE900024640 /* qq.png in Resources */,
 				9194DAF21A6531280066382E /* Main.storyboard in Resources */,
+				9179D75B1A65861300024640 /* FirstView.xib in Resources */,
 				9194DAF71A6531280066382E /* LaunchScreen.xib in Resources */,
 				9194DAF41A6531280066382E /* Images.xcassets in Resources */,
+				9179D7601A65894E00024640 /* 87x87.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,9 +257,11 @@
 			files = (
 				9179D7581A656A6C00024640 /* KCNibBridge.m in Sources */,
 				9194DAEF1A6531280066382E /* ViewController.m in Sources */,
+				9179D7631A6589EE00024640 /* SecondView.m in Sources */,
 				9194DAEC1A6531280066382E /* AppDelegate.m in Sources */,
 				9194DB0E1A6539F70066382E /* KCNibConvention.m in Sources */,
 				9194DAE91A6531280066382E /* main.m in Sources */,
+				9179D75E1A65863A00024640 /* FirstView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
